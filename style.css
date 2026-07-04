@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('Bj table.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: goldenrod;
+
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
