@@ -21,6 +21,9 @@ p{
 }
 
 button{
+    display: block;
+    width: 220px;
+    margin: 10px auto;
     background-color: goldenrod;
     color: #0B5F0B;
     padding: 10px 20px;
