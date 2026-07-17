@@ -1,3 +1,8 @@
+let player = {
+    name: "Player",
+    chips: 200,
+}
+
 let cards = []
 let sum = 0
 let isAlive = false
@@ -6,6 +11,9 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sumEl")
 let cardsEl = document.getElementById("cards-el")
+let playerEl = document.getElementById("player-el")
+
+playerEl.textContent = player.name + ": $" + player.chips
 
 function getRandomCard(){
     let randomNum = Math.floor(Math.random() * 13) + 1
